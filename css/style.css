@@ -60,8 +60,17 @@ font-size: xx-large ;
 .descricao i:hover{
   scale: 1.3;
 }
+.foto{
+  
+  width: 600px;
+ overflow: hidden;
+  height: 400px;
+  box-shadow: -2px 2px 20px ;
+  border-radius: 3px 160px 3px 160px;
+}
 .principal .foto img{
-  width: 400px;
+  width: 100%
+  ;
 }
 
 .contato__lista {
@@ -96,6 +105,17 @@ font-size: xx-large ;
     margin: auto;
     font-size: 28px;
   }
+  .foto{
+    background: #4a0a8a;
+    width: 260px;
+    border-radius: 100%;
+    height: 260px;
+   
+
+
+  }
+
+
   .principal{
     flex-direction: column-reverse;
     height: auto;
