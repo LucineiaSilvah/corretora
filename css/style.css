@@ -91,6 +91,8 @@ font-size: xx-large ;
 
   }
   .cabecalho h1{
+    width: 50%;
+    margin: auto;
     font-size: 28px;
   }
   .principal{
