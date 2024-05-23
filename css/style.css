@@ -88,7 +88,10 @@ font-size: xx-large ;
 @media screen and (min-width:0) and (max-width:720px) {
   .cabecalho{
    padding: 0;
-   text-align: left;
+
+  }
+  .cabecalho h1{
+    font-size: 28px;
   }
   .principal{
     flex-direction: column-reverse;
