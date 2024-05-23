@@ -92,6 +92,7 @@ font-size: xx-large ;
   }
   .cabecalho h1{
     width: 50%;
+    padding-top: 10px;
     margin: auto;
     font-size: 28px;
   }
