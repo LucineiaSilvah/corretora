@@ -26,6 +26,7 @@ body{
   color: #fff;
   backdrop-filter: blur(10px);
   text-transform: uppercase;
+  text-align: center;
 }
 
 .principal{
@@ -66,7 +67,7 @@ font-size: xx-large ;
 .contato__lista {
   display: flex;
   width: 70%;
- 
+  padding: 30px 0;
   list-style: none;
   justify-content: space-between;
 
@@ -86,8 +87,8 @@ font-size: xx-large ;
 
 @media screen and (min-width:0) and (max-width:720px) {
   .cabecalho{
-    font-size: 0.9rem;
-    text-align: center;
+   padding: 0;
+   text-align: left;
   }
   .principal{
     flex-direction: column-reverse;
@@ -107,6 +108,7 @@ font-size: xx-large ;
     color: rgb(12, 12, 12);
     font-style: italic;
   }
+
   .contato__lista li{
     margin: 20px;
   }
