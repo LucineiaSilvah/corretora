@@ -126,7 +126,7 @@ font-size: xx-large ;
 
   .principal{
     flex-direction: column-reverse;
-    height: auto;
+    height: calc(100vh - 100px);
   }
   .descricao{
     width: 100%;
